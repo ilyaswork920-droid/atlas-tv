@@ -48,7 +48,7 @@ export function Hero() {
             transition={{ duration: 0.65, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
             className="font-display text-4xl font-bold leading-[1.08] tracking-tight text-cloud sm:text-5xl lg:text-[3.4rem]"
           >
-            Premium IPTV Germany —{" "}
+            Premium IPTV in Germany —{" "}
             <span className="text-gradient">HD, 4K &amp; 8K</span> streaming
           </motion.h1>
 
@@ -116,7 +116,7 @@ export function Hero() {
           <div className="relative overflow-hidden rounded-[28px] border border-white/10 shadow-card">
             <Image
               src="/images/hero-tv-wall.jpg"
-              alt="Modern living room with a premium smart TV streaming IPTV Germany channels"
+              alt="Modern living room with a premium smart TV streaming My Atlas TV channels"
               width={900}
               height={1000}
               priority

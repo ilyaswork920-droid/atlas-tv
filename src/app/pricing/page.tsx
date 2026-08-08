@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const offerJsonLd = {
   "@context": "https://schema.org",
   "@type": "OfferCatalog",
-  name: "IPTV Germany IPTV Subscription Plans",
+  name: `${siteConfig.name} Subscription Plans`,
   itemListElement: plans.map((plan, index) => ({
     "@type": "Offer",
     position: index + 1,
@@ -34,7 +34,7 @@ const offerJsonLd = {
     availability: "https://schema.org/InStock",
     itemOffered: {
       "@type": "Service",
-      name: `IPTV Germany ${plan.name} Plan`,
+      name: `${siteConfig.name} ${plan.name} Plan`,
       description: plan.features.join(", "),
     },
   })),

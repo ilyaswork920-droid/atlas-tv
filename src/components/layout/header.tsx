@@ -14,6 +14,12 @@ export function Header() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [lastPathname, setLastPathname] = useState(pathname);
+
+  if (pathname !== lastPathname) {
+    setLastPathname(pathname);
+    setOpen(false);
+  }
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -21,10 +27,6 @@ export function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
@@ -43,7 +45,7 @@ export function Header() {
       )}
     >
       <div className="container-edge flex h-[76px] items-center justify-between">
-        <Link href="/" className="shrink-0" aria-label="IPTV Germany IPTV — Home">
+        <Link href="/" className="shrink-0" aria-label="My Atlas TV — Home">
           <Logo />
         </Link>
 

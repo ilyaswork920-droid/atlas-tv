@@ -29,7 +29,7 @@ export function SocialProof() {
       <div className="absolute inset-0">
         <Image
           src="/images/berlin-skyline.jpg"
-          alt="Berlin skyline at night with the TV tower, representing IPTV Germany's nationwide coverage"
+          alt="Berlin skyline at night with the TV tower, representing My Atlas TV's nationwide coverage in Germany"
           fill
           className="object-cover opacity-30"
           sizes="100vw"
@@ -41,7 +41,7 @@ export function SocialProof() {
         <SectionHeading
           eyebrow="Made for Germany"
           title="Trusted by streamers in every major German city"
-          description="From Berlin to Munich, thousands of customers rely on IPTV Germany IPTV every day."
+          description="From Berlin to Munich, thousands of customers rely on My Atlas TV every day."
         />
 
         <RevealGroup className="mx-auto grid max-w-3xl grid-cols-2 gap-6 sm:grid-cols-4" stagger={0.06}>

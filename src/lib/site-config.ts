@@ -1,19 +1,19 @@
 export const siteConfig = {
-  name: "IPTV Germany IPTV",
-  shortName: "Germany IPTV",
-  domain: "iptvgermanyiptv.de",
-  url: "https://iptvgermanyiptv.de",
+  name: "My Atlas TV",
+  shortName: "Atlas TV",
+  domain: "myatlastv.com",
+  url: "https://myatlastv.com",
   description:
     "Premium IPTV subscription in Germany with 15,000+ live channels, HD, 4K & 8K streaming, German & international content, and instant activation. Trusted by thousands across Germany.",
   locale: "en",
   themeColor: "#0b0e1c",
-  supportEmail: "support@iptvgermanyiptv.de",
+  supportEmail: "support@myatlastv.com",
   whatsapp: {
-    numberDisplay: "+44 7723 781927",
-    numberIntl: "447723781927",
+    numberDisplay: "+44 7911 123456",
+    numberIntl: "447911123456",
   },
   social: {
-    whatsapp: "https://wa.me/447723781927",
+    whatsapp: "https://wa.me/447911123456",
   },
 } as const;
 
@@ -99,6 +99,6 @@ export function planWhatsAppMessage(planName: string, price: number) {
   return `Hi! I'm interested in the ${planName} plan (€${price}/year) on ${siteConfig.domain}. Can you help me get started?`;
 }
 
-export const trialWhatsAppMessage = `Hi! I'd like to start my IPTV Germany free trial. Can you send me the details?`;
-export const setupHelpWhatsAppMessage = `Hi! I need help setting up IPTV Germany on my device. Can you assist me?`;
-export const generalWhatsAppMessage = `Hi! I have a question about IPTV Germany IPTV. Can you help me?`;
+export const trialWhatsAppMessage = `Hi! I'd like to start my free trial with My Atlas TV. Can you send me the details?`;
+export const setupHelpWhatsAppMessage = `Hi! I need help setting up My Atlas TV on my device. Can you assist me?`;
+export const generalWhatsAppMessage = `Hi! I have a question about My Atlas TV. Can you help me?`;

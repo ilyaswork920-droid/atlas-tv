@@ -39,7 +39,7 @@ export function Testimonials() {
         <SectionHeading
           eyebrow="Customer stories"
           title="What our customers say"
-          description="Real feedback from IPTV Germany IPTV subscribers across the country."
+          description="Real feedback from My Atlas TV subscribers across the country."
         />
 
         <RevealGroup className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4" stagger={0.08}>

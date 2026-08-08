@@ -22,7 +22,7 @@ export function SetupTeaser() {
           <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-card">
             <Image
               src="/images/setup-tv-wall.jpg"
-              alt="Minimalist wall-mounted smart TV setup, ready for IPTV Germany installation"
+              alt="Minimalist wall-mounted smart TV setup, ready for My Atlas TV installation"
               width={900}
               height={720}
               className="aspect-[5/4] w-full object-cover"
