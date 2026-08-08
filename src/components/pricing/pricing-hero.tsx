@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function PricingHero() {
   return (
-    <section className="relative overflow-hidden pt-[150px] pb-16 sm:pt-[168px] sm:pb-20">
+    <section className="relative overflow-hidden pt-[170px] pb-16 sm:pt-[188px] sm:pb-20">
       <div aria-hidden className="pointer-events-none absolute inset-0 grid-texture opacity-30" />
       <div
         aria-hidden

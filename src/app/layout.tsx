@@ -71,7 +71,7 @@ const organizationJsonLd = {
   "@type": "Organization",
   name: siteConfig.name,
   url: siteConfig.url,
-  logo: `${siteConfig.url}/logo.png`,
+  logo: `${siteConfig.url}/brand/logo.png`,
   description: siteConfig.description,
   areaServed: {
     "@type": "Country",

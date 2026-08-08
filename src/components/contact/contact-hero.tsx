@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export function ContactHero() {
   return (
-    <section className="relative overflow-hidden pt-[150px] pb-14 sm:pt-[168px] sm:pb-16">
+    <section className="relative overflow-hidden pt-[170px] pb-14 sm:pt-[188px] sm:pb-16">
       <div aria-hidden className="pointer-events-none absolute inset-0 grid-texture opacity-30" />
       <div
         aria-hidden

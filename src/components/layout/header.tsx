@@ -44,7 +44,7 @@ export function Header() {
           : "border-b border-transparent bg-transparent"
       )}
     >
-      <div className="container-edge flex h-[76px] items-center justify-between">
+      <div className="container-edge flex h-[96px] items-center justify-between">
         <Link href="/" className="shrink-0" aria-label="Atlas TV — Home">
           <Logo />
         </Link>
