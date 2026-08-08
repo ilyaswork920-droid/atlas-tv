@@ -28,7 +28,7 @@ export function PriceComparison() {
         <SectionHeading
           eyebrow="Why switch"
           title="Save up to €690 a year vs. cable & satellite"
-          description="Traditional TV locks you into expensive contracts. My Atlas TV doesn't."
+          description="Traditional TV locks you into expensive contracts. Atlas TV doesn't."
         />
 
         <div className="mx-auto grid w-full max-w-3xl grid-cols-1 gap-6 sm:grid-cols-2">
@@ -55,7 +55,7 @@ export function PriceComparison() {
                 className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-gradient-to-br from-purple-500/30 to-blue-500/20 blur-2xl"
               />
               <h3 className="relative text-sm font-semibold uppercase tracking-wide text-purple-300">
-                My Atlas TV
+                Atlas TV
               </h3>
               <ul className="relative flex flex-col gap-4">
                 {iptv.map((item) => (
@@ -75,7 +75,7 @@ export function PriceComparison() {
           viewport={{ once: true }}
           className="text-center text-sm text-muted"
         >
-          Estimated annual savings based on average German cable/satellite pricing of €60+/month vs.
+          Estimated annual savings based on average cable/satellite pricing of €60+/month vs.
           our Basic plan at €30/year.
         </motion.p>
       </div>

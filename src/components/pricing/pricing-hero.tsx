@@ -25,7 +25,7 @@ export function PricingHero() {
           transition={{ duration: 0.6, delay: 0.08 }}
           className="max-w-2xl font-display text-4xl font-bold tracking-tight text-cloud sm:text-5xl"
         >
-          My Atlas TV <span className="text-gradient">subscription plans</span>
+          Atlas TV <span className="text-gradient">subscription plans</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 16 }}

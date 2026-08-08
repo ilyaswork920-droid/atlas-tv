@@ -28,11 +28,11 @@ const blocks = [
     eyebrow: "Channel Library",
     title: "15,000+ channels, one simple subscription",
     description:
-      "German and international entertainment, sports, news and kids channels — all organised in a clean, fast programme guide.",
+      "Local and international entertainment, sports, news and kids channels — all organised in a clean, fast programme guide.",
     image: "/images/content-landscape-tv.jpg",
     alt: "Large smart TV displaying vivid content in a bright modern living room",
     bullets: [
-      "German broadcast channels included on every plan",
+      "Local broadcast channels included on every plan",
       "International entertainment, news & kids categories",
       "7-day EPG so you never miss what's on",
     ],

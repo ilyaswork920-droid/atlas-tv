@@ -46,7 +46,7 @@ export function Logo({ className, iconOnly }: { className?: string; iconOnly?: b
       {!iconOnly && (
         <span className="flex flex-col leading-none">
           <span className="font-display text-[15px] font-bold tracking-tight text-cloud">
-            My Atlas TV
+            Atlas TV
           </span>
           <span className="text-[10px] font-medium uppercase tracking-[0.18em] text-purple-400">
             Streaming

@@ -8,25 +8,25 @@ import { RevealGroup, revealItem } from "@/components/ui/reveal";
 const testimonials = [
   {
     name: "Michael K.",
-    city: "Berlin",
+    city: "New York",
     quote:
-      "The best IPTV provider in Germany I've tried. Stable 4K streams and the channel list is huge.",
+      "The best IPTV provider I've tried. Stable 4K streams and the channel list is huge.",
   },
   {
     name: "Sarah M.",
-    city: "Munich",
+    city: "London",
     quote:
       "Setup on my Fire Stick took less than five minutes. The free trial made it an easy decision.",
   },
   {
     name: "Ahmed H.",
-    city: "Frankfurt",
+    city: "Dubai",
     quote:
       "Great selection of international channels and WhatsApp support actually replies fast.",
   },
   {
     name: "Thomas W.",
-    city: "Hamburg",
+    city: "Toronto",
     quote:
       "Cancelled my €60/month cable package. 8K on my Samsung TV looks incredible for the price.",
   },
@@ -39,7 +39,7 @@ export function Testimonials() {
         <SectionHeading
           eyebrow="Customer stories"
           title="What our customers say"
-          description="Real feedback from My Atlas TV subscribers across the country."
+          description="Real feedback from Atlas TV subscribers around the world."
         />
 
         <RevealGroup className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4" stagger={0.08}>
@@ -63,7 +63,7 @@ export function Testimonials() {
                 </span>
                 <span className="flex flex-col">
                   <span className="text-sm font-medium text-cloud">{t.name}</span>
-                  <span className="text-xs text-muted">{t.city}, Germany</span>
+                  <span className="text-xs text-muted">{t.city}</span>
                 </span>
               </figcaption>
             </motion.figure>

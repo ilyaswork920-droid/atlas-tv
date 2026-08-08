@@ -45,7 +45,7 @@ export function Header() {
       )}
     >
       <div className="container-edge flex h-[76px] items-center justify-between">
-        <Link href="/" className="shrink-0" aria-label="My Atlas TV — Home">
+        <Link href="/" className="shrink-0" aria-label="Atlas TV — Home">
           <Logo />
         </Link>
 

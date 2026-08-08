@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const items = [
   { icon: Tv, label: "HD, 4K & 8K streaming" },
-  { icon: Globe2, label: "German & international channels" },
+  { icon: Globe2, label: "Local & international channels" },
   { icon: Sparkles, label: "15,000+ live channels" },
   { icon: Smartphone, label: "Works on all your devices" },
 ];

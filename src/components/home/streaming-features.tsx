@@ -9,7 +9,7 @@ const features = [
   {
     icon: Radio,
     title: "Live TV",
-    description: "15,000+ live channels covering German, European and international broadcasts.",
+    description: "15,000+ live channels covering global, regional and international broadcasts.",
   },
   {
     icon: Clapperboard,
@@ -24,7 +24,7 @@ const features = [
   {
     icon: Trophy,
     title: "Sports Channels",
-    description: "Bundesliga, Champions League and global sports on dedicated plans.",
+    description: "Top leagues, Champions League and global sports on dedicated plans.",
   },
   {
     icon: RotateCcw,
@@ -44,7 +44,7 @@ export function StreamingFeatures() {
       <div className="container-edge flex flex-col gap-14">
         <SectionHeading
           eyebrow="What you get"
-          title="Next-generation streaming, built for Germany"
+          title="Next-generation streaming, built for everyone"
           description="Everything you need for premium entertainment — live, on-demand and always in high quality."
         />
 

@@ -17,7 +17,7 @@ export function Footer() {
         <div className="flex flex-col gap-4">
           <Logo />
           <p className="max-w-sm text-sm leading-relaxed text-muted">
-            Premium IPTV subscription built for Germany — 15,000+ live channels,
+            Premium IPTV subscription built for streamers everywhere — 15,000+ live channels,
             HD/4K/8K streaming and instant activation, backed by real support on WhatsApp.
           </p>
           <div className="flex items-center gap-3 pt-2">

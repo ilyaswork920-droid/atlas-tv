@@ -13,14 +13,14 @@ import { FinalCta } from "@/components/home/final-cta";
 import { siteConfig, plans } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Best IPTV Germany | Premium IPTV Subscription from €30/year",
+  title: "Atlas TV | Premium IPTV Subscription from €30/year",
   description:
-    "Buy premium IPTV in Germany: 15,000+ live channels, HD/4K/8K streaming, German & international content. Instant activation, 24/7 WhatsApp support. Free trial available.",
+    "Stream with Atlas TV: 15,000+ live channels, HD/4K/8K streaming, premium international content. Instant activation, 24/7 WhatsApp support. Free trial available.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Best IPTV Germany | Premium IPTV Subscription from €30/year",
+    title: "Atlas TV | Premium IPTV Subscription from €30/year",
     description:
-      "Buy premium IPTV in Germany: 15,000+ live channels, HD/4K/8K streaming, German & international content. Instant activation, 24/7 WhatsApp support.",
+      "Stream with Atlas TV: 15,000+ live channels, HD/4K/8K streaming, premium international content. Instant activation, 24/7 WhatsApp support.",
     url: siteConfig.url,
   },
 };
@@ -34,7 +34,6 @@ const serviceJsonLd = {
     name: siteConfig.name,
     url: siteConfig.url,
   },
-  areaServed: { "@type": "Country", name: "Germany" },
   description: siteConfig.description,
   offers: plans.map((plan) => ({
     "@type": "Offer",

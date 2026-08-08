@@ -1,19 +1,19 @@
 export const siteConfig = {
-  name: "My Atlas TV",
+  name: "Atlas TV",
   shortName: "Atlas TV",
   domain: "myatlastv.com",
   url: "https://myatlastv.com",
   description:
-    "Premium IPTV subscription in Germany with 15,000+ live channels, HD, 4K & 8K streaming, German & international content, and instant activation. Trusted by thousands across Germany.",
+    "Premium IPTV subscription with 15,000+ live channels, HD, 4K & 8K streaming, local & international content, and instant activation. Trusted by thousands of streamers worldwide.",
   locale: "en",
   themeColor: "#0b0e1c",
   supportEmail: "support@myatlastv.com",
   whatsapp: {
-    numberDisplay: "+44 7911 123456",
-    numberIntl: "447911123456",
+    numberDisplay: "+44 7723 781927",
+    numberIntl: "447723781927",
   },
   social: {
-    whatsapp: "https://wa.me/447911123456",
+    whatsapp: "https://wa.me/447723781927",
   },
 } as const;
 
@@ -46,7 +46,7 @@ export const plans: Plan[] = [
     devices: "1 device at a time",
     features: [
       "15,000+ live channels",
-      "German & international channels",
+      "Local & international channels",
       "Full HD & 4K streaming",
       "7-day EPG programme guide",
       "Stable anti-freeze servers",
@@ -99,6 +99,6 @@ export function planWhatsAppMessage(planName: string, price: number) {
   return `Hi! I'm interested in the ${planName} plan (€${price}/year) on ${siteConfig.domain}. Can you help me get started?`;
 }
 
-export const trialWhatsAppMessage = `Hi! I'd like to start my free trial with My Atlas TV. Can you send me the details?`;
-export const setupHelpWhatsAppMessage = `Hi! I need help setting up My Atlas TV on my device. Can you assist me?`;
-export const generalWhatsAppMessage = `Hi! I have a question about My Atlas TV. Can you help me?`;
+export const trialWhatsAppMessage = `Hi! I'd like to start my free trial with Atlas TV. Can you send me the details?`;
+export const setupHelpWhatsAppMessage = `Hi! I need help setting up Atlas TV on my device. Can you assist me?`;
+export const generalWhatsAppMessage = `Hi! I have a question about Atlas TV. Can you help me?`;
