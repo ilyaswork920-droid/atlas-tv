@@ -70,7 +70,7 @@ export function Hero() {
             className="flex flex-wrap items-center gap-3"
           >
             <WhatsAppButton message={trialWhatsAppMessage} size="lg" showArrow>
-              Start Free Trial
+              Subscribe
             </WhatsAppButton>
             <Button href="/pricing" variant="secondary" size="lg">
               View Pricing
