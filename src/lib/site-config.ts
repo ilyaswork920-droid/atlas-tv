@@ -41,7 +41,7 @@ export const plans: Plan[] = [
   {
     id: "basic",
     name: "Basic",
-    tagline: "Perfect to get started",
+    tagline: "Formule 1 écran – 12 mois",
     price: 30,
     period: "/year",
     devices: "1 device at a time",
@@ -57,7 +57,7 @@ export const plans: Plan[] = [
   {
     id: "plus",
     name: "Plus",
-    tagline: "Our most popular plan",
+    tagline: "Formule 2 écrans – 12 mois",
     price: 45,
     period: "/year",
     badge: "Most Popular",
@@ -75,7 +75,7 @@ export const plans: Plan[] = [
   {
     id: "premium",
     name: "Premium",
-    tagline: "The full experience",
+    tagline: "Formule 3 écrans – 12 mois",
     price: 55,
     period: "/year",
     badge: "Best Value",
