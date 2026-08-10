@@ -4,8 +4,8 @@ import { Logo } from "@/components/ui/logo";
 import { navLinks, siteConfig } from "@/lib/site-config";
 
 const legalLinks = [
-  { label: "Legal Notice", href: "/contact" },
-  { label: "Privacy Policy", href: "/contact" },
+  { label: "Legal Notice", href: "/legal-notice" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
 ];
 
 export function Footer() {

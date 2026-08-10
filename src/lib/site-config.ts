@@ -61,7 +61,7 @@ export const plans: Plan[] = [
     price: 45,
     period: "/year",
     badge: "Most Popular",
-    devices: "1 device at a time",
+    devices: "2 devices at a time",
     highlighted: true,
     features: [
       "Everything in Basic, plus:",
@@ -79,7 +79,7 @@ export const plans: Plan[] = [
     price: 55,
     period: "/year",
     badge: "Best Value",
-    devices: "1 device at a time",
+    devices: "3 devices at a time",
     features: [
       "Everything in Plus, plus:",
       "Full sports channel package",
