@@ -6,45 +6,63 @@ import { Reveal } from "@/components/ui/reveal";
 export const metadata: Metadata = {
   title: "Legal Notice",
   description:
-    "Legal notice for Atlas TV (myatlastv.com): website publisher, hosting provider and contact information.",
+    "Mentions légales du site Atlas TV (myatlastv.com) : éditeur, hébergement, propriété intellectuelle et informations de contact.",
   alternates: { canonical: "/legal-notice" },
   openGraph: {
     title: `Legal Notice | ${siteConfig.name}`,
     description:
-      "Legal notice for Atlas TV (myatlastv.com): website publisher, hosting provider and contact information.",
+      "Mentions légales du site Atlas TV (myatlastv.com) : éditeur, hébergement, propriété intellectuelle et informations de contact.",
     url: `${siteConfig.url}/legal-notice`,
   },
 };
 
 const sections = [
   {
-    h2: "Website Publisher",
+    h2: "Éditeur du site",
     body: [
-      `This website (${siteConfig.domain}) is published and operated by ${siteConfig.name}. For any question regarding the identity of the publisher, ownership of the site, or official correspondence, please contact us at ${siteConfig.supportEmail}.`,
+      `Le site ${siteConfig.domain} est édité par ${siteConfig.name}. Les informations d'identification complètes de l'éditeur peuvent être communiquées sur demande à l'adresse ${siteConfig.supportEmail}.`,
     ],
   },
   {
-    h2: "Hosting",
+    h2: "Directeur de la publication",
     body: [
-      "This website is hosted by Vercel Inc., a cloud infrastructure provider. Vercel is responsible for the technical hosting of the site's content and is not involved in the editorial content published on it.",
+      `La direction de la publication du site est assurée par ${siteConfig.name}, joignable à l'adresse indiquée dans la rubrique « Contact » ci-dessous.`,
     ],
   },
   {
-    h2: "Intellectual Property",
+    h2: "Hébergement",
     body: [
-      `All content on this website — including text, graphics, logos, and the ${siteConfig.name} brand — is the property of ${siteConfig.name} unless otherwise stated, and may not be reproduced without prior written consent.`,
+      "Ce site est hébergé par Vercel Inc., fournisseur d'infrastructure cloud. Vercel assure l'hébergement technique du contenu du site et n'intervient pas dans son contenu éditorial.",
     ],
   },
   {
-    h2: "Liability",
+    h2: "Propriété intellectuelle",
     body: [
-      `${siteConfig.name} strives to keep the information on this website accurate and up to date, but cannot guarantee the absence of errors or omissions. Use of this website is at your own responsibility.`,
+      `L'ensemble des contenus présents sur ce site — textes, graphismes, logo et marque ${siteConfig.name} — est la propriété de ${siteConfig.name}, sauf mention contraire, et ne peut être reproduit sans autorisation écrite préalable.`,
+    ],
+  },
+  {
+    h2: "Données personnelles",
+    body: [
+      "Le traitement des données personnelles collectées sur ce site est détaillé dans notre Politique de Confidentialité, accessible depuis le pied de page du site.",
+    ],
+  },
+  {
+    h2: "Responsabilité",
+    body: [
+      `${siteConfig.name} s'efforce de maintenir les informations de ce site à jour et exactes, mais ne peut garantir l'absence d'erreurs ou d'omissions. L'utilisation de ce site relève de la responsabilité de l'utilisateur.`,
+    ],
+  },
+  {
+    h2: "Droit applicable",
+    body: [
+      "Les présentes mentions légales sont soumises au droit applicable au lieu d'exploitation du site. Tout litige relatif à leur interprétation ou à leur exécution relève de la compétence des tribunaux compétents.",
     ],
   },
   {
     h2: "Contact",
     body: [
-      `For any legal enquiry related to this website, you can reach us by email at ${siteConfig.supportEmail} or via WhatsApp at ${siteConfig.whatsapp.numberDisplay}.`,
+      `Pour toute question d'ordre légal concernant ce site, vous pouvez nous contacter par email à ${siteConfig.supportEmail} ou via WhatsApp au ${siteConfig.whatsapp.numberDisplay}.`,
     ],
   },
 ];
@@ -69,15 +87,16 @@ export default function LegalNoticePage() {
           <h1 className="max-w-2xl font-display text-4xl font-bold tracking-tight text-cloud sm:text-5xl">
             Legal Notice
           </h1>
-          <p className="max-w-xl text-balance text-base text-muted sm:text-lg">
-            Publisher, hosting and contact information for {siteConfig.domain}.
+          <p className="max-w-xl text-balance text-base text-muted sm:text-lg" lang="fr">
+            Mentions légales relatives à l&apos;édition et à l&apos;hébergement du site{" "}
+            {siteConfig.domain}.
           </p>
         </div>
       </section>
 
       <section className="relative pb-24 sm:pb-28">
         <div className="container-edge">
-          <div className="mx-auto flex max-w-2xl flex-col gap-12">
+          <div className="mx-auto flex max-w-2xl flex-col gap-12" lang="fr">
             {sections.map((section, i) => (
               <Reveal key={i}>
                 <div className="flex flex-col gap-4">
@@ -98,7 +117,7 @@ export default function LegalNoticePage() {
                 href="/"
                 className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-purple-300 transition-colors hover:text-white"
               >
-                ← Back to homepage
+                ← Retour à l&apos;accueil
               </Link>
             </Reveal>
           </div>

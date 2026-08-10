@@ -6,51 +6,71 @@ import { Reveal } from "@/components/ui/reveal";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy policy for Atlas TV (myatlastv.com): what information we collect, how it is used, and how to contact us about your data.",
+    "Politique de confidentialité du site Atlas TV (myatlastv.com) : données collectées, finalités, base légale et droits RGPD.",
   alternates: { canonical: "/privacy-policy" },
   openGraph: {
     title: `Privacy Policy | ${siteConfig.name}`,
     description:
-      "Privacy policy for Atlas TV (myatlastv.com): what information we collect, how it is used, and how to contact us about your data.",
+      "Politique de confidentialité du site Atlas TV (myatlastv.com) : données collectées, finalités, base légale et droits RGPD.",
     url: `${siteConfig.url}/privacy-policy`,
   },
 };
 
 const sections = [
   {
-    h2: "Information We Collect",
+    h2: "Responsable du traitement",
     body: [
-      `When you use the contact form on ${siteConfig.domain}, we collect the information you provide, such as your name, email address and message. When you reach out via WhatsApp, that conversation takes place on WhatsApp's own platform and is subject to WhatsApp's (Meta's) privacy policy.`,
+      `Le responsable du traitement des données collectées sur ${siteConfig.domain} est ${siteConfig.name}, joignable à l'adresse ${siteConfig.supportEmail}.`,
     ],
   },
   {
-    h2: "How We Use Your Information",
+    h2: "Données collectées",
     body: [
-      "We use the information you provide solely to respond to your enquiry, offer support, and help you with your subscription or setup. We do not sell your personal information to third parties.",
+      `Lorsque vous utilisez le formulaire de contact du site, nous collectons les informations que vous renseignez : nom, adresse email et message. Lorsque vous nous contactez via WhatsApp, cet échange a lieu directement sur la plateforme WhatsApp et est soumis à la politique de confidentialité de WhatsApp (Meta).`,
     ],
   },
   {
-    h2: "Cookies & Tracking",
+    h2: "Finalités du traitement",
     body: [
-      `${siteConfig.name} does not use advertising cookies or third-party tracking scripts on this website. Only the technical functionality required for the site to work is used.`,
+      "Les données collectées sont utilisées uniquement pour répondre à votre demande, vous accompagner dans le choix, la souscription ou l'installation de votre abonnement, et assurer le support client. Nous ne vendons pas vos informations personnelles à des tiers.",
     ],
   },
   {
-    h2: "Third-Party Services",
+    h2: "Base légale",
     body: [
-      "This website is hosted by Vercel Inc., which may process standard technical logs (such as IP address and request data) as part of delivering the site. Messages sent via WhatsApp are handled by WhatsApp/Meta under their own privacy terms.",
+      "Le traitement de vos données repose sur votre consentement, exprimé librement lorsque vous nous contactez via le formulaire du site ou via WhatsApp.",
     ],
   },
   {
-    h2: "Your Rights",
+    h2: "Durée de conservation",
     body: [
-      `You may request access to, correction of, or deletion of any personal information you have shared with us at any time by contacting ${siteConfig.supportEmail}.`,
+      "Vos données sont conservées uniquement le temps nécessaire pour traiter votre demande et assurer le suivi du support, puis supprimées ou anonymisées.",
+    ],
+  },
+  {
+    h2: "Cookies et traceurs",
+    body: [
+      `${siteConfig.name} n'utilise aucun cookie publicitaire ni traceur tiers sur ce site. Seuls les éléments techniques strictement nécessaires à son fonctionnement sont utilisés.`,
+    ],
+  },
+  {
+    h2: "Partage des données",
+    body: [
+      "Vos données ne sont ni vendues ni partagées avec des tiers, à l'exception des prestataires techniques nécessaires au fonctionnement du site : notre hébergeur (Vercel Inc.) et WhatsApp/Meta pour les échanges que vous initiez vous-même.",
+    ],
+  },
+  {
+    h2: "Vos droits",
+    body: [
+      "Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification, d'effacement et de limitation du traitement de vos données personnelles. Vous pouvez exercer ces droits à tout moment en nous contactant à " +
+        siteConfig.supportEmail +
+        ". Vous disposez également du droit d'introduire une réclamation auprès de la Commission Nationale de l'Informatique et des Libertés (CNIL).",
     ],
   },
   {
     h2: "Contact",
     body: [
-      `If you have any questions about this privacy policy or how your information is handled, please contact us at ${siteConfig.supportEmail} or via WhatsApp at ${siteConfig.whatsapp.numberDisplay}.`,
+      `Pour toute question relative à cette politique de confidentialité ou à l'utilisation de vos données, contactez-nous à ${siteConfig.supportEmail} ou via WhatsApp au ${siteConfig.whatsapp.numberDisplay}.`,
     ],
   },
 ];
@@ -75,15 +95,15 @@ export default function PrivacyPolicyPage() {
           <h1 className="max-w-2xl font-display text-4xl font-bold tracking-tight text-cloud sm:text-5xl">
             Privacy Policy
           </h1>
-          <p className="max-w-xl text-balance text-base text-muted sm:text-lg">
-            What information we collect on {siteConfig.domain}, and how it is used.
+          <p className="max-w-xl text-balance text-base text-muted sm:text-lg" lang="fr">
+            Comment {siteConfig.domain} collecte et utilise vos informations personnelles.
           </p>
         </div>
       </section>
 
       <section className="relative pb-24 sm:pb-28">
         <div className="container-edge">
-          <div className="mx-auto flex max-w-2xl flex-col gap-12">
+          <div className="mx-auto flex max-w-2xl flex-col gap-12" lang="fr">
             {sections.map((section, i) => (
               <Reveal key={i}>
                 <div className="flex flex-col gap-4">
@@ -104,7 +124,7 @@ export default function PrivacyPolicyPage() {
                 href="/"
                 className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-purple-300 transition-colors hover:text-white"
               >
-                ← Back to homepage
+                ← Retour à l&apos;accueil
               </Link>
             </Reveal>
           </div>
