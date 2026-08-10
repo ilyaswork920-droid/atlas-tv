@@ -63,7 +63,7 @@ export function Button(props: ButtonAsLink | ButtonAsButton) {
       );
     }
     return (
-      <Link href={props.href} className={classes}>
+      <Link href={props.href} prefetch={false} className={classes}>
         {content}
       </Link>
     );

@@ -61,6 +61,7 @@ export function ContentShowcase() {
                   alt={block.alt}
                   width={900}
                   height={720}
+                  sizes="(min-width: 1024px) 570px, 90vw"
                   className="aspect-[5/4] w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />

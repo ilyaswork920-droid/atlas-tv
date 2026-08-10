@@ -25,6 +25,7 @@ export function SetupTeaser() {
               alt="Minimalist wall-mounted smart TV setup, ready for Atlas TV installation"
               width={900}
               height={720}
+              sizes="(min-width: 1024px) 570px, 90vw"
               className="aspect-[5/4] w-full object-cover"
             />
           </div>

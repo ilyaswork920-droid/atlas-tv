@@ -120,6 +120,7 @@ export function Hero() {
               width={900}
               height={1000}
               priority
+              sizes="(min-width: 1024px) 570px, (min-width: 640px) 448px, 90vw"
               className="aspect-[9/10] w-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/5 to-transparent" />
