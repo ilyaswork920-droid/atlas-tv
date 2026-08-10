@@ -117,7 +117,7 @@ export const clusterE: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/application-iptv.webp",
-    imageAlt: "Main tenant un smartphone affichant une application de streaming IPTV",
+    imageAlt: "Main tenant un smartphone à l'écran vierge illustrant une application IPTV",
   },
   {
     n: 16,
@@ -189,7 +189,7 @@ export const clusterE: BlogArticle[] = [
     ],
     sitePages: ["setup"],
     featuredImage: "/images/blog/application-iptv-smart-tv.webp",
-    imageAlt: "Écran d'accueil d'une Smart TV avec une application IPTV ouverte",
+    imageAlt: "Tablette à l'écran coloré illustrant le choix d'une application IPTV pour Smart TV",
   },
   {
     n: 17,
@@ -260,7 +260,7 @@ export const clusterE: BlogArticle[] = [
     ],
     sitePages: ["setup"],
     featuredImage: "/images/blog/lecteur-iptv.webp",
-    imageAlt: "Câbles et boîtier multimédia illustrant un lecteur IPTV",
+    imageAlt: "Câbles multicolores entremêlés illustrant le fonctionnement d'un lecteur IPTV",
   },
   {
     n: 18,
@@ -352,7 +352,7 @@ export const clusterE: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/iptv-player.webp",
-    imageAlt: "Comparatif de lecteurs IPTV affichés sur plusieurs écrans",
+    imageAlt: "Plusieurs écrans vidéo affichés côte à côte pour illustrer le comparatif des lecteurs IPTV",
   },
   {
     n: 19,
@@ -429,6 +429,6 @@ export const clusterE: BlogArticle[] = [
     ],
     sitePages: ["setup"],
     featuredImage: "/images/blog/iptv-smarters-pro.webp",
-    imageAlt: "Interface d'un lecteur IPTV Smarters Pro sur écran de télévision",
+    imageAlt: "Gros plan sur un port HDMI illustrant le fonctionnement d'un lecteur IPTV",
   },
 ];

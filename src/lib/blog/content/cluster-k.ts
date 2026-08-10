@@ -114,7 +114,7 @@ export const clusterK: BlogArticle[] = [
     ],
     sitePages: ["pricing", "contact", "home"],
     featuredImage: "/images/blog/quel-iptv-choisir.webp",
-    imageAlt: "Grille de critères affichée sur ordinateur pour choisir un service IPTV",
+    imageAlt: "Personne notant des critères sur un carnet illustrant le choix d'un service IPTV",
   },
   {
     n: 3,
@@ -212,7 +212,7 @@ export const clusterK: BlogArticle[] = [
     ],
     sitePages: ["pricing", "home"],
     featuredImage: "/images/blog/meilleur-iptv-comparatif.webp",
-    imageAlt: "Télécommande à la main devant un téléviseur pour comparer les services IPTV",
+    imageAlt: "Deux écrans affichant le même paysage pour comparer les services IPTV",
   },
   {
     n: 4,
@@ -303,7 +303,7 @@ export const clusterK: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/meilleur-abonnement-iptv.webp",
-    imageAlt: "Pièces et calculette symbolisant le rapport qualité-prix d'un abonnement IPTV",
+    imageAlt: "Calculatrice et lunettes sur un bureau symbolisant le rapport qualité-prix d'un abonnement IPTV",
   },
   {
     n: 46,
@@ -388,7 +388,7 @@ export const clusterK: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/meilleur-iptv-smart-tv.webp",
-    imageAlt: "Comparaison de services IPTV sur l'écran d'une Smart TV",
+    imageAlt: "Salon lumineux avec téléviseur mural illustrant le meilleur IPTV pour Smart TV",
   },
   {
     n: 47,
@@ -473,7 +473,7 @@ export const clusterK: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/meilleur-iptv-fire-stick.webp",
-    imageAlt: "Clé Amazon Fire TV Stick posée à côté d'une télécommande",
+    imageAlt: "Main tenant un petit boîtier USB illustrant le meilleur IPTV pour Fire Stick",
   },
   {
     n: 49,
@@ -551,6 +551,6 @@ export const clusterK: BlogArticle[] = [
     ],
     sitePages: ["pricing", "contact"],
     featuredImage: "/images/blog/comment-choisir-abonnement-iptv.webp",
-    imageAlt: "Personne comparant plusieurs offres d'abonnement IPTV sur ordinateur portable",
+    imageAlt: "Personne utilisant un ordinateur portable illustrant la comparaison d'offres d'abonnement IPTV",
   },
 ];

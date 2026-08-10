@@ -98,6 +98,6 @@ export const clusterC: BlogArticle[] = [
     ],
     sitePages: ["pricing", "home"],
     featuredImage: "/images/blog/iptv-premium.webp",
-    imageAlt: "Salon cinéma maison haut de gamme illustrant une offre IPTV premium",
+    imageAlt: "Salon minimaliste avec téléviseur et canapé illustrant une offre IPTV premium",
   },
 ];

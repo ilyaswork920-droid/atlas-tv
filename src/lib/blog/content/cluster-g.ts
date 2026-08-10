@@ -103,7 +103,7 @@ export const clusterG: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-4k.webp",
-    imageAlt: "Téléviseur affichant une image ultra nette en résolution 4K",
+    imageAlt: "Salon lumineux avec téléviseur incurvé illustrant la qualité IPTV 4K",
   },
   {
     n: 41,
@@ -205,7 +205,7 @@ export const clusterG: BlogArticle[] = [
     ],
     sitePages: ["contact", "pricing"],
     featuredImage: "/images/blog/iptv-sans-coupure.webp",
-    imageAlt: "Signal réseau stable illustrant un streaming IPTV sans coupure",
+    imageAlt: "Fibres optiques lumineuses illustrant un streaming IPTV sans coupure",
   },
   {
     n: 42,
@@ -296,7 +296,7 @@ export const clusterG: BlogArticle[] = [
     ],
     sitePages: ["pricing", "contact"],
     featuredImage: "/images/blog/iptv-stable.webp",
-    imageAlt: "Routeur et câbles réseau illustrant la stabilité d'un service IPTV",
+    imageAlt: "Câbles réseau regroupés illustrant la stabilité d'un service IPTV",
   },
   {
     n: 43,
@@ -387,7 +387,7 @@ export const clusterG: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-qualite-4k.webp",
-    imageAlt: "Téléviseur affichant une image détaillée en qualité 4K",
+    imageAlt: "Paysage aux couleurs nettes illustrant la qualité d'image IPTV 4K",
   },
   {
     n: 44,
@@ -458,7 +458,7 @@ export const clusterG: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-full-hd.webp",
-    imageAlt: "Téléviseur affichant un flux vidéo net en qualité Full HD",
+    imageAlt: "Téléviseur affichant une image nette et détaillée illustrant la qualité IPTV Full HD",
   },
   {
     n: 45,
@@ -542,6 +542,6 @@ export const clusterG: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-8k.webp",
-    imageAlt: "Téléviseur haut de gamme illustrant la technologie d'affichage 8K",
+    imageAlt: "Salon haut de gamme avec téléviseur mural illustrant la technologie IPTV 8K",
   },
 ];

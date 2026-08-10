@@ -95,7 +95,7 @@ export const clusterJ: BlogArticle[] = [
     ],
     sitePages: ["contact", "home"],
     featuredImage: "/images/blog/iptv-legal.webp",
-    imageAlt: "Salon paisible avec téléviseur illustrant le cadre légal de l'IPTV",
+    imageAlt: "Ordinateur portable éteint posé sur un bureau illustrant le cadre légal de l'IPTV",
   },
   {
     n: 26,
@@ -175,7 +175,7 @@ export const clusterJ: BlogArticle[] = [
     ],
     sitePages: ["contact", "home"],
     featuredImage: "/images/blog/iptv-legal-france.webp",
-    imageAlt: "Intérieur français avec téléviseur illustrant la légalité de l'IPTV en France",
+    imageAlt: "Rue parisienne avec vue sur la tour Eiffel illustrant la légalité de l'IPTV en France",
   },
   {
     n: 27,
@@ -265,6 +265,6 @@ export const clusterJ: BlogArticle[] = [
     ],
     sitePages: ["contact", "pricing"],
     featuredImage: "/images/blog/iptv-gratuit.webp",
-    imageAlt: "Ordinateur portable affichant une recherche de service IPTV gratuit",
+    imageAlt: "Ordinateur portable ouvert illustrant une recherche de service IPTV gratuit",
   },
 ];

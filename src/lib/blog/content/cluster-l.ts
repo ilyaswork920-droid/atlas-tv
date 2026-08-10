@@ -100,7 +100,7 @@ export const clusterL: BlogArticle[] = [
     ],
     sitePages: ["contact", "pricing", "home"],
     featuredImage: "/images/blog/iptv-france-avis.webp",
-    imageAlt: "Personne consultant des avis clients sur smartphone à propos d'un service IPTV",
+    imageAlt: "Smartphone à l'écran vierge posé sur une table en bois illustrant les avis sur l'IPTV en France",
   },
   {
     n: 28,
@@ -191,7 +191,7 @@ export const clusterL: BlogArticle[] = [
     ],
     sitePages: ["contact", "pricing"],
     featuredImage: "/images/blog/test-iptv-gratuit.webp",
-    imageAlt: "Personne testant un service de streaming sur ordinateur portable",
+    imageAlt: "Mains tapant sur un clavier d'ordinateur portable illustrant un test IPTV gratuit",
   },
   {
     n: 29,
@@ -261,6 +261,6 @@ export const clusterL: BlogArticle[] = [
     ],
     sitePages: ["contact", "pricing"],
     featuredImage: "/images/blog/essai-iptv.webp",
-    imageAlt: "Chronomètre et écran de streaming symbolisant une période d'essai IPTV",
+    imageAlt: "Horloge numérique sur un bureau symbolisant une période d'essai IPTV",
   },
 ];

@@ -105,7 +105,7 @@ export const clusterD: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/iptv-smart-tv.webp",
-    imageAlt: "Téléviseur connecté mural dans un salon minimaliste illustrant l'IPTV sur Smart TV",
+    imageAlt: "Téléviseur connecté éteint fixé au mur dans un salon en bois",
   },
   {
     n: 10,
@@ -177,7 +177,7 @@ export const clusterD: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/iptv-pour-smart-tv.webp",
-    imageAlt: "Télécommande de Smart TV utilisée pour naviguer dans une application IPTV",
+    imageAlt: "Ordinateur portable refermé illustrant le choix d'une application IPTV pour Smart TV",
   },
   {
     n: 11,
@@ -249,7 +249,7 @@ export const clusterD: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/iptv-samsung.webp",
-    imageAlt: "Téléviseur Samsung dans un salon illustrant la compatibilité avec l'IPTV",
+    imageAlt: "Téléviseur allumé posé sur un meuble illustrant la compatibilité IPTV avec Samsung",
   },
   {
     n: 12,
@@ -321,7 +321,7 @@ export const clusterD: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/iptv-lg.webp",
-    imageAlt: "Téléviseur LG dans un salon illustrant la compatibilité avec l'IPTV",
+    imageAlt: "Panneau arrière d'un téléviseur avec ports et câbles illustrant la compatibilité LG",
   },
   {
     n: 13,
@@ -393,7 +393,7 @@ export const clusterD: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/iptv-fire-stick.webp",
-    imageAlt: "Boîtier Amazon Fire TV Stick branché sur un téléviseur",
+    imageAlt: "Téléviseur allumé dans une pièce sombre illustrant l'utilisation de l'IPTV avec un boîtier Fire Stick",
   },
   {
     n: 14,
@@ -464,6 +464,6 @@ export const clusterD: BlogArticle[] = [
     ],
     sitePages: ["setup", "pricing"],
     featuredImage: "/images/blog/iptv-android-tv.webp",
-    imageAlt: "Boîtier Android TV connecté à un téléviseur pour le streaming IPTV",
+    imageAlt: "Projecteur multimédia posé sur une étagère illustrant l'IPTV sur Android TV",
   },
 ];

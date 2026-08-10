@@ -90,7 +90,7 @@ export const clusterI: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-films-et-series.webp",
-    imageAlt: "Salle de cinéma avec fauteuils illustrant l'offre films et séries en streaming",
+    imageAlt: "Deux personnes installées devant un grand écran illustrant l'offre IPTV films et séries",
   },
   {
     n: 40,
@@ -160,6 +160,6 @@ export const clusterI: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-vod.webp",
-    imageAlt: "Bibliothèque de vidéos à la demande affichée sur un écran de télévision",
+    imageAlt: "Tablette posée sur une table illustrant la vidéo à la demande en IPTV",
   },
 ];

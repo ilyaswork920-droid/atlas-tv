@@ -101,7 +101,7 @@ export const clusterF: BlogArticle[] = [
     ],
     sitePages: ["setup", "contact"],
     featuredImage: "/images/blog/installer-iptv-smart-tv.webp",
-    imageAlt: "Personne installant une application IPTV sur une Smart TV",
+    imageAlt: "Téléviseur éteint posé sur un meuble illustrant l'installation de l'IPTV sur Smart TV",
   },
   {
     n: 21,
@@ -178,7 +178,7 @@ export const clusterF: BlogArticle[] = [
     ],
     sitePages: ["setup", "contact"],
     featuredImage: "/images/blog/installer-iptv-samsung.webp",
-    imageAlt: "Étapes d'installation d'une application IPTV sur un téléviseur Samsung",
+    imageAlt: "Gros plan sur un port HDMI illustrant l'installation de l'IPTV sur Samsung",
   },
   {
     n: 22,
@@ -255,7 +255,7 @@ export const clusterF: BlogArticle[] = [
     ],
     sitePages: ["setup", "contact"],
     featuredImage: "/images/blog/installer-iptv-lg.webp",
-    imageAlt: "Étapes d'installation d'une application IPTV sur un téléviseur LG",
+    imageAlt: "Téléviseur mural avec meuble et rangement illustrant l'installation de l'IPTV sur LG",
   },
   {
     n: 23,
@@ -332,7 +332,7 @@ export const clusterF: BlogArticle[] = [
     ],
     sitePages: ["setup", "contact"],
     featuredImage: "/images/blog/installer-iptv-fire-stick.webp",
-    imageAlt: "Installation d'une application IPTV sur une clé Amazon Fire TV Stick",
+    imageAlt: "Main tenant un câble USB illustrant l'installation de l'IPTV sur Fire Stick",
   },
   {
     n: 24,
@@ -441,6 +441,6 @@ export const clusterF: BlogArticle[] = [
     ],
     sitePages: ["home", "setup"],
     featuredImage: "/images/blog/comment-fonctionne-iptv.webp",
-    imageAlt: "Câbles réseau et box internet illustrant le fonctionnement de l'IPTV",
+    imageAlt: "Câbles réseau connectés illustrant le fonctionnement technique de l'IPTV",
   },
 ];

@@ -170,7 +170,7 @@ export const clusterA: BlogArticle[] = [
     ],
     sitePages: ["pricing", "setup", "home"],
     featuredImage: "/images/blog/abonnement-iptv-guide-complet.webp",
-    imageAlt: "Salon moderne avec téléviseur allumé illustrant un abonnement IPTV",
+    imageAlt: "Salon contemporain avec téléviseur mural illustrant un abonnement IPTV",
   },
   {
     n: 30,
@@ -270,7 +270,7 @@ export const clusterA: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/abonnement-iptv-12-mois.webp",
-    imageAlt: "Calendrier annuel symbolisant un abonnement IPTV de 12 mois",
+    imageAlt: "Calendrier de bureau illustrant un abonnement IPTV de 12 mois",
   },
   {
     n: 31,
@@ -343,7 +343,7 @@ export const clusterA: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/abonnement-iptv-6-mois.webp",
-    imageAlt: "Calendrier semestriel symbolisant un abonnement IPTV de 6 mois",
+    imageAlt: "Calendrier mural près d'un bureau illustrant un abonnement IPTV de 6 mois",
   },
   {
     n: 32,
@@ -436,6 +436,6 @@ export const clusterA: BlogArticle[] = [
     ],
     sitePages: ["pricing", "contact"],
     featuredImage: "/images/blog/abonnement-iptv-3-mois.webp",
-    imageAlt: "Calendrier trimestriel symbolisant un abonnement IPTV de 3 mois",
+    imageAlt: "Agenda mensuel ouvert sur un bureau symbolisant un abonnement IPTV de 3 mois",
   },
 ];

@@ -90,7 +90,7 @@ export const clusterH: BlogArticle[] = [
     ],
     sitePages: ["pricing", "contact"],
     featuredImage: "/images/blog/iptv-sport.webp",
-    imageAlt: "Salon avec téléviseur allumé prêt pour regarder du sport en direct",
+    imageAlt: "Gradins vides d'un stade illustrant l'IPTV sport",
   },
   {
     n: 36,
@@ -160,7 +160,7 @@ export const clusterH: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-football.webp",
-    imageAlt: "Stade de football vu depuis les gradins pour illustrer le streaming sportif",
+    imageAlt: "Ballon de football posé sur la pelouse illustrant le suivi des matchs en IPTV",
   },
   {
     n: 37,
@@ -231,7 +231,7 @@ export const clusterH: BlogArticle[] = [
     ],
     sitePages: ["pricing", "contact"],
     featuredImage: "/images/blog/iptv-ligue-1.webp",
-    imageAlt: "Terrain de football filmé pour illustrer la diffusion de championnat en direct",
+    imageAlt: "Ballon de football sur l'herbe illustrant la diffusion de la Ligue 1 en IPTV",
   },
   {
     n: 38,
@@ -302,6 +302,6 @@ export const clusterH: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-champions-league.webp",
-    imageAlt: "Stade de football illuminé en soirée pour illustrer une compétition européenne",
+    imageAlt: "Projecteurs de stade en silhouette au coucher du soleil illustrant la Ligue des Champions en IPTV",
   },
 ];

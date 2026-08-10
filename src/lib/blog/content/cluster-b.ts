@@ -115,7 +115,7 @@ export const clusterB: BlogArticle[] = [
     ],
     sitePages: ["home", "pricing", "contact"],
     featuredImage: "/images/blog/iptv-france-guide.webp",
-    imageAlt: "Intérieur français avec télévision connectée pour illustrer l'IPTV en France",
+    imageAlt: "Salon meublé avec téléviseur à écran plat illustrant l'IPTV en France",
   },
   {
     n: 6,
@@ -201,7 +201,7 @@ export const clusterB: BlogArticle[] = [
     ],
     sitePages: ["contact", "pricing"],
     featuredImage: "/images/blog/iptv-francais.webp",
-    imageAlt: "Appartement à la française avec télévision représentant un service IPTV français",
+    imageAlt: "Intérieur cosy baigné de lumière naturelle illustrant un service IPTV français",
   },
   {
     n: 7,
@@ -280,7 +280,7 @@ export const clusterB: BlogArticle[] = [
     ],
     sitePages: ["pricing", "contact"],
     featuredImage: "/images/blog/abonnement-iptv-france.webp",
-    imageAlt: "Paiement en ligne par carte bancaire pour souscrire un abonnement IPTV en France",
+    imageAlt: "Carte bancaire posée sur un clavier d'ordinateur pour illustrer la souscription à un abonnement IPTV en France",
   },
   {
     n: 33,
@@ -372,7 +372,7 @@ export const clusterB: BlogArticle[] = [
     ],
     sitePages: ["pricing", "contact"],
     featuredImage: "/images/blog/iptv-avec-chaines-francaises.webp",
-    imageAlt: "Guide des programmes affichant des chaînes françaises sur téléviseur",
+    imageAlt: "Rue parisienne animée illustrant l'accès aux chaînes françaises en IPTV",
   },
   {
     n: 34,
@@ -463,6 +463,6 @@ export const clusterB: BlogArticle[] = [
     ],
     sitePages: ["pricing"],
     featuredImage: "/images/blog/iptv-chaines-francaises.webp",
-    imageAlt: "Zapping de chaînes françaises sur un téléviseur connecté",
+    imageAlt: "Drapeau français flottant sur une façade illustrant les chaînes françaises en IPTV",
   },
 ];
