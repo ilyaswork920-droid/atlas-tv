@@ -30,11 +30,14 @@ export type Plan = {
   name: string;
   tagline: string;
   price: number;
+  oldPrice?: number;
+  savingsBadge?: string;
   period: string;
   badge?: string;
-  devices: string;
+  devices?: string;
   features: string[];
   highlighted?: boolean;
+  accent?: boolean;
 };
 
 export const plans: Plan[] = [
@@ -88,6 +91,53 @@ export const plans: Plan[] = [
       "Highest-priority server routing",
       "Free setup assistance",
     ],
+  },
+];
+
+const deFeatures = [
+  "30.000+ Kanäle",
+  "100.000+ VOD & TV Shows",
+  "Premium App inklusive",
+  "4K & HD Qualität",
+  "Catch-Up TV",
+  "Sofortige Aktivierung",
+  "Anti-Freeze Streaming",
+  "EPG TV Guide",
+  "24/7 Support",
+];
+
+export const dePlans: Plan[] = [
+  {
+    id: "de-1m",
+    name: "1 Monat Abo",
+    tagline: "Einmalige Zahlung.",
+    price: 20,
+    period: "",
+    features: deFeatures,
+  },
+  {
+    id: "de-6m",
+    name: "6 Monate Abo",
+    tagline: "Einmalige Zahlung.",
+    price: 45,
+    oldPrice: 74,
+    savingsBadge: "Spare 30%",
+    period: "",
+    badge: "Most Popular",
+    highlighted: true,
+    features: deFeatures,
+  },
+  {
+    id: "de-12m",
+    name: "12 Monate Abo",
+    tagline: "Einmalige Zahlung.",
+    price: 65,
+    oldPrice: 85,
+    savingsBadge: "Spare 45%",
+    period: "",
+    badge: "Best Value",
+    accent: true,
+    features: deFeatures,
   },
 ];
 

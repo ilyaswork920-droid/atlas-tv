@@ -1,18 +1,55 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Check, Users } from "lucide-react";
 import { RevealGroup, revealItem } from "@/components/ui/reveal";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
-import { plans, planWhatsAppMessage } from "@/lib/site-config";
+import { plans, dePlans, planWhatsAppMessage } from "@/lib/site-config";
 import { cn } from "@/lib/utils";
 
+type Country = "fr" | "de";
+
+const countries: { id: Country; label: string; flag: string }[] = [
+  { id: "fr", label: "France", flag: "🇫🇷" },
+  { id: "de", label: "Germany", flag: "🇩🇪" },
+];
+
 export function PlanCards() {
+  const [country, setCountry] = useState<Country>("fr");
+  const activePlans = country === "fr" ? plans : dePlans;
+  const subscribeLabel = country === "fr" ? "Subscribe Now" : "Abonnieren";
+
   return (
     <section className="relative py-8 sm:py-10">
       <div className="container-edge">
-        <RevealGroup className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3" stagger={0.08}>
-          {plans.map((plan) => (
+        <div className="mb-10 flex justify-center">
+          <div className="inline-flex items-center gap-1 rounded-full border border-white/8 bg-navy-900/50 p-1.5">
+            {countries.map((c) => (
+              <button
+                key={c.id}
+                type="button"
+                onClick={() => setCountry(c.id)}
+                className={cn(
+                  "flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors",
+                  country === c.id
+                    ? "border border-purple-400/40 bg-navy-900 text-cloud shadow-glow-purple"
+                    : "border border-transparent text-muted hover:text-mist"
+                )}
+              >
+                <span className="text-base leading-none">{c.flag}</span>
+                {c.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <RevealGroup
+          key={country}
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          stagger={0.08}
+        >
+          {activePlans.map((plan) => (
             <motion.div
               key={plan.id}
               variants={revealItem}
@@ -21,7 +58,9 @@ export function PlanCards() {
                 "relative flex flex-col gap-6 rounded-3xl border p-8",
                 plan.highlighted
                   ? "border-purple-400/40 bg-navy-900 shadow-glow-purple lg:-translate-y-3"
-                  : "border-white/8 bg-navy-900/50"
+                  : plan.accent
+                    ? "border-purple-400/40 bg-navy-900 shadow-glow-purple"
+                    : "border-white/8 bg-navy-900/50"
               )}
             >
               {plan.badge && (
@@ -33,14 +72,28 @@ export function PlanCards() {
                 <h3 className="font-display text-xl font-bold text-cloud">{plan.name}</h3>
                 <p className="mt-1 text-sm text-muted">{plan.tagline}</p>
               </div>
-              <div className="flex items-baseline gap-1">
-                <span className="font-display text-4xl font-bold text-cloud">€{plan.price}</span>
-                <span className="text-sm text-muted">{plan.period}</span>
-              </div>
-              <div className="flex items-center gap-2 text-xs text-muted">
-                <Users className="h-3.5 w-3.5" />
-                {plan.devices}
-              </div>
+              {plan.oldPrice ? (
+                <div className="flex flex-col gap-1.5">
+                  <span className="text-sm text-muted line-through">€{plan.oldPrice}</span>
+                  <span className="font-display text-4xl font-bold text-cloud">€{plan.price}</span>
+                  {plan.savingsBadge && (
+                    <span className="inline-flex w-fit items-center rounded-full bg-blue-500/15 px-3 py-1 text-xs font-semibold text-blue-300">
+                      {plan.savingsBadge}
+                    </span>
+                  )}
+                </div>
+              ) : (
+                <div className="flex items-baseline gap-1">
+                  <span className="font-display text-4xl font-bold text-cloud">€{plan.price}</span>
+                  <span className="text-sm text-muted">{plan.period}</span>
+                </div>
+              )}
+              {plan.devices && (
+                <div className="flex items-center gap-2 text-xs text-muted">
+                  <Users className="h-3.5 w-3.5" />
+                  {plan.devices}
+                </div>
+              )}
               <ul className="flex flex-col gap-3 border-t border-white/8 pt-5">
                 {plan.features.map((f) => (
                   <li key={f} className="flex items-start gap-2.5 text-sm text-mist">
@@ -54,7 +107,7 @@ export function PlanCards() {
                 variant={plan.highlighted ? "primary" : "secondary"}
                 className="mt-auto w-full"
               >
-                Subscribe Now
+                {subscribeLabel}
               </WhatsAppButton>
             </motion.div>
           ))}
