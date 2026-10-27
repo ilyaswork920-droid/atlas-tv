@@ -30,6 +30,7 @@ export type Plan = {
   name: string;
   tagline: string;
   price: number;
+  months?: number;
   oldPrice?: number;
   savingsBadge?: string;
   period: string;
@@ -94,50 +95,53 @@ export const plans: Plan[] = [
   },
 ];
 
-const deFeatures = [
-  "30.000+ Kanäle",
-  "100.000+ VOD & TV Shows",
-  "Premium App inklusive",
-  "4K & HD Qualität",
+export const subscriptionFeatures = [
+  "30,000+ Live Channels",
+  "100,000+ VOD & TV Shows",
+  "4K & HD Streaming",
   "Catch-Up TV",
-  "Sofortige Aktivierung",
-  "Anti-Freeze Streaming",
   "EPG TV Guide",
-  "24/7 Support",
+  "Anti-Freeze Streaming",
+  "Works on Compatible Devices",
+  "24/7 WhatsApp Support",
 ];
 
-export const dePlans: Plan[] = [
+export const subscriptionPlans: Plan[] = [
   {
-    id: "de-1m",
-    name: "1 Monat Abo",
-    tagline: "Einmalige Zahlung.",
+    id: "1m",
+    name: "1 Month",
+    tagline: "Try it out with a short-term plan and no long-term commitment.",
     price: 20,
+    months: 1,
     period: "",
-    features: deFeatures,
+    features: subscriptionFeatures,
   },
   {
-    id: "de-6m",
-    name: "6 Monate Abo",
-    tagline: "Einmalige Zahlung.",
+    id: "3m",
+    name: "3 Months",
+    tagline: "A balanced option for viewers who want more value over time.",
+    price: 35,
+    months: 3,
+    period: "",
+    features: subscriptionFeatures,
+  },
+  {
+    id: "6m",
+    name: "6 Months",
+    tagline: "Save more with a half-year subscription and steady access.",
     price: 45,
-    oldPrice: 74,
-    savingsBadge: "Spare 30%",
+    months: 6,
     period: "",
-    badge: "Most Popular",
-    highlighted: true,
-    features: deFeatures,
+    features: subscriptionFeatures,
   },
   {
-    id: "de-12m",
-    name: "12 Monate Abo",
-    tagline: "Einmalige Zahlung.",
+    id: "12m",
+    name: "12 Months",
+    tagline: "The best price per month for long-term, worry-free streaming.",
     price: 65,
-    oldPrice: 85,
-    savingsBadge: "Spare 45%",
+    months: 12,
     period: "",
-    badge: "Best Value",
-    accent: true,
-    features: deFeatures,
+    features: subscriptionFeatures,
   },
 ];
 
@@ -146,8 +150,9 @@ export function buildWhatsAppUrl(message: string) {
   return `https://wa.me/${siteConfig.whatsapp.numberIntl}?text=${encoded}`;
 }
 
-export function planWhatsAppMessage(planName: string, price: number) {
-  return `Hi! I'm interested in the ${planName} plan (€${price}/year) on ${siteConfig.domain}. Can you help me get started?`;
+export function planWhatsAppMessage(planName: string, price: number, months?: number) {
+  const priceLabel = months ? `€${price} total` : `€${price}/year`;
+  return `Hi! I'm interested in the ${planName} plan (${priceLabel}) on ${siteConfig.domain}. Can you help me get started?`;
 }
 
 export const trialWhatsAppMessage = `Hi! I'd like to start my free trial with Atlas TV. Can you send me the details?`;

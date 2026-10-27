@@ -59,8 +59,8 @@ export function Hero() {
             className="max-w-xl text-balance text-base leading-relaxed text-muted sm:text-lg"
           >
             The best IPTV subscription available: 15,000+ live channels, premium international
-            content, rock-solid streaming servers and instant activation — starting from{" "}
-            <span className="font-semibold text-cloud">€30/year</span>.
+            content, rock-solid streaming servers and instant activation — with plans from{" "}
+            <span className="font-semibold text-cloud">€20</span>.
           </motion.p>
 
           <motion.div

@@ -14,10 +14,10 @@ const cable = [
 ];
 
 const iptv = [
-  "From €30 per year",
+  "Plans from €20, 1 to 12 months",
   "No long-term contract",
   "15,000+ channels included",
-  "Works on devices you already own",
+  "Works on compatible devices you already own",
   "24/7 WhatsApp support",
 ];
 
@@ -27,7 +27,7 @@ export function PriceComparison() {
       <div className="container-edge flex flex-col gap-14">
         <SectionHeading
           eyebrow="Why switch"
-          title="Save up to €690 a year vs. cable & satellite"
+          title="A simpler alternative to cable & satellite"
           description="Traditional TV locks you into expensive contracts. Atlas TV doesn't."
         />
 
@@ -75,8 +75,7 @@ export function PriceComparison() {
           viewport={{ once: true }}
           className="text-center text-sm text-muted"
         >
-          Estimated annual savings based on average cable/satellite pricing of €60+/month vs.
-          our Basic plan at €30/year.
+          Cable/satellite pricing is an estimated average and varies by provider.
         </motion.p>
       </div>
     </section>

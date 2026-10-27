@@ -3,8 +3,7 @@
 import Image from "next/image";
 import { Check } from "lucide-react";
 import { Reveal } from "@/components/ui/reveal";
-import { WhatsAppButton } from "@/components/ui/whatsapp-button";
-import { planWhatsAppMessage } from "@/lib/site-config";
+import { Button } from "@/components/ui/button";
 
 const blocks = [
   {
@@ -20,9 +19,6 @@ const blocks = [
       "HEVC H.265 for a sharper picture at lower data",
     ],
     reverse: false,
-    planId: "plus",
-    planName: "Plus",
-    price: 45,
   },
   {
     eyebrow: "Channel Library",
@@ -37,9 +33,6 @@ const blocks = [
       "7-day EPG so you never miss what's on",
     ],
     reverse: true,
-    planId: "basic",
-    planName: "Basic",
-    price: 30,
   },
 ];
 
@@ -88,13 +81,9 @@ export function ContentShowcase() {
                   ))}
                 </ul>
                 <div className="pt-2">
-                  <WhatsAppButton
-                    message={planWhatsAppMessage(block.planName, block.price)}
-                    variant="secondary"
-                    showArrow
-                  >
+                  <Button href="/pricing" variant="secondary" showArrow>
                     Learn more
-                  </WhatsAppButton>
+                  </Button>
                 </div>
               </div>
             </Reveal>
